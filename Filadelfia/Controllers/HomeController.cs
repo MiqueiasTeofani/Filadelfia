@@ -6,10 +6,14 @@ using System.Web.Mvc;
 
 namespace Filadelfia.Controllers
 {
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
+
+            çamsdasdn
+            ViewBag.pedro = "Pedro";
             return View();
         }
 
